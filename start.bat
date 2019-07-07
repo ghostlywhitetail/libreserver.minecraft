@@ -1,0 +1,1 @@
+java -Xmx2G -jar spigot-1.14.3.jar
