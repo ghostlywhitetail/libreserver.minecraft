@@ -167,6 +167,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2020-07-24 01:54:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-04-20 14:29:22 +0000"
@@ -200,6 +206,18 @@
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2020-04-18 18:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2020-07-24 01:42:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2020-07-24 01:29:39 +0000"
     },
     "done": true
   },
@@ -251,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-07-24 01:42:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2020-04-18 18:46:29 +0000"
@@ -266,6 +290,12 @@
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2020-04-18 18:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2020-07-24 01:15:09 +0000"
     },
     "done": true
   },
@@ -505,6 +535,8 @@
       "minecraft:creeper": "2020-04-20 18:26:33 +0000",
       "minecraft:slime": "2020-04-26 02:52:04 +0000",
       "minecraft:husk": "2020-05-17 20:59:44 +0000",
+      "minecraft:piglin": "2020-07-24 01:17:19 +0000",
+      "minecraft:enderman": "2020-07-24 01:25:48 +0000",
       "minecraft:zombie": "2020-04-20 14:04:07 +0000",
       "minecraft:drowned": "2020-04-18 13:55:56 +0000",
       "minecraft:zombie_villager": "2020-04-23 00:45:12 +0000"
@@ -607,6 +639,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2020-07-24 01:49:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2020-04-20 21:24:36 +0000"
@@ -622,6 +660,12 @@
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
       "has_cod": "2020-04-23 18:49:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-07-24 01:21:45 +0000"
     },
     "done": true
   },
@@ -676,6 +720,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2020-04-18 18:29:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-07-24 01:24:05 +0000"
     },
     "done": true
   },
@@ -1015,6 +1065,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2020-07-24 01:42:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2020-04-18 13:42:13 +0000"
@@ -1146,6 +1202,12 @@
       "has_bamboo": "2020-05-24 18:06:58 +0000"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2020-07-24 01:13:38 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
@@ -1303,6 +1365,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-07-24 01:42:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2020-04-20 20:03:03 +0000"
@@ -1434,6 +1502,7 @@
       "cooked_porkchop": "2020-04-21 01:14:14 +0000",
       "cooked_mutton": "2020-04-20 20:07:06 +0000",
       "cooked_beef": "2020-04-21 00:56:37 +0000",
+      "chorus_fruit": "2020-07-24 01:30:45 +0000",
       "baked_potato": "2020-05-24 19:37:03 +0000",
       "apple": "2020-04-18 23:41:47 +0000",
       "cooked_cod": "2020-04-30 00:11:10 +0000",
@@ -1442,6 +1511,7 @@
       "salmon": "2020-05-09 18:27:35 +0000",
       "beetroot": "2020-05-17 21:00:06 +0000",
       "cooked_chicken": "2020-04-18 13:56:09 +0000",
+      "mushroom_stew": "2020-07-24 01:22:47 +0000",
       "cooked_salmon": "2020-04-29 23:56:52 +0000",
       "carrot": "2020-04-18 14:50:04 +0000"
     },
@@ -1941,6 +2011,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2020-07-24 01:15:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2020-04-20 14:29:22 +0000"
@@ -2277,9 +2353,21 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2020-07-24 01:31:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2020-04-19 00:02:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2020-07-24 01:28:33 +0000"
     },
     "done": true
   },
@@ -2397,6 +2485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2020-07-24 01:42:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-04-18 14:02:43 +0000"
@@ -2412,6 +2506,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-04-18 14:17:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-07-24 01:24:05 +0000"
     },
     "done": true
   },
@@ -2448,6 +2548,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2020-04-18 18:38:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-07-24 01:42:28 +0000"
     },
     "done": true
   },
