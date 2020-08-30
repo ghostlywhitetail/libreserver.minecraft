@@ -2,3 +2,6 @@
 &6Type &c/help&6 for a list of commands.
 &6Type &c/list&6 to see who else is online.
 &6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+&6Use a Golden Shovel and &c/rp claim&6 to get your own region
+&6Use &c/rp settp&6 and &c/rp teleport <regionName>&6 to get to your region
+&6Use &c/spawn&6 &c/sethome&6 &c/home&6

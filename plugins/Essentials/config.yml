@@ -816,11 +816,11 @@ protect:
     lava-flow: false
     water-flow: false
     water-bucket-flow: false
-    fire-spread: true
-    lava-fire-spread: true
+    fire-spread: false
+    lava-fire-spread: false
     lava-itemdamage: false
     flint-fire: false
-    lightning-fire-spread: true
+    lightning-fire-spread: false
     portal-creation: false
     tnt-explosion: false
     tnt-playerdamage: false
@@ -842,7 +842,7 @@ protect:
     creeper-itemdamage: false
     creeper-blockdamage: false
     ender-crystal-explosion: false
-    enderdragon-blockdamage: true
+    enderdragon-blockdamage: false
     enderman-pickup: false
     villager-death: false
     bed-explosion: false
@@ -960,12 +960,12 @@ protect:
     # Should people without the essentials.build permission be allowed to build?
     # Set true to disable building for those people.
     # Setting to false means EssentialsAntiBuild will never prevent you from building.
-    build: true
+    build: false
 
     # Should people without the essentials.build permission be allowed to use items?
     # Set true to disable using for those people.
     # Setting to false means EssentialsAntiBuild will never prevent you from using items.
-    use: true
+    use: false
 
     # Should we warn people when they are not allowed to build?
     warn-on-build-disallow: true
@@ -973,17 +973,17 @@ protect:
   # For which block types would you like to be alerted?
   # You can find a list of items at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html.
   alert:
-    on-placement: LAVA,TNT,LAVA_BUCKET
-    on-use: LAVA_BUCKET
+    on-placement:
+    on-use:
     on-break:
 
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: LAVA,TNT,LAVA_BUCKET
+    placement:
 
     # Which items should people be prevented from using?
-    usage: LAVA_BUCKET
+    usage:
 
     # Which blocks should people be prevented from breaking?
     break:
@@ -1032,7 +1032,7 @@ respawn-listener-priority: high
 spawn-join-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # Teleport all joining players to the spawnpoint
 spawn-on-join: false

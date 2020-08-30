@@ -1,0 +1,35 @@
+lastAccountName: shadowrocks90
+timestamps:
+  login: 1598077174941
+  lastteleport: 1598078495826
+  logout: 1598078557221
+ipAddress: 68.227.226.10
+lastlocation:
+  world: world
+  x: 49.213149303832225
+  y: 88.0
+  z: 3451.0643715355327
+  yaw: -351.5747
+  pitch: 5.808228
+logoutlocation:
+  world: world
+  x: 299.29490829609216
+  y: 64.0
+  z: 135.69758329819553
+  yaw: 224.84973
+  pitch: 21.44996
+homes:
+  plot:
+    world: world
+    x: -61.884661195124025
+    y: 132.0
+    z: 2305.95266499698
+    yaw: -127.46623
+    pitch: 29.80864
+  badlands:
+    world: world
+    x: -120.42344944663711
+    y: 64.0
+    z: 2955.8730761565016
+    yaw: 211.8272
+    pitch: 3.1082282

@@ -1,0 +1,28 @@
+lastAccountName: Warszaw
+timestamps:
+  login: 1598498759032
+  logout: 1598502896824
+  lastteleport: 1598499208418
+ipAddress: 65.128.167.231
+lastlocation:
+  world: world
+  x: 275.97838905212865
+  y: 63.9375
+  z: 105.64375727741303
+  yaw: -61.269314
+  pitch: 26.384813
+logoutlocation:
+  world: world
+  x: 164.2851621368966
+  y: 71.0
+  z: 219.59488534256326
+  yaw: -49.447388
+  pitch: 14.071143
+homes:
+  home:
+    world: world
+    x: 166.36981998214824
+    y: 70.5
+    z: 214.83108723561196
+    yaw: 180.94269
+    pitch: 12.167111
