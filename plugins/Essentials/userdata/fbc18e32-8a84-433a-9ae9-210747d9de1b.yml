@@ -1,16 +1,16 @@
 lastAccountName: ShotgunSammy86
 timestamps:
-  login: 1598197715276
-  logout: 1598199917310
+  login: 1613233791762
+  logout: 1613235739075
   lastteleport: 1598199395015
 ipAddress: 24.118.80.127
 logoutlocation:
   world: world
-  x: 269.99831679173167
+  x: 278.1052112724357
   y: 63.0
-  z: 164.90832162983025
-  yaw: 8.552096
-  pitch: 90.0
+  z: 148.7351388849594
+  yaw: -38.526947
+  pitch: 36.74991
 lastlocation:
   world: world
   x: 478.5072041241028
