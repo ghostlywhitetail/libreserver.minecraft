@@ -1,8 +1,8 @@
 lastAccountName: mrnotfortheweak
 timestamps:
-  login: 1617056462114
+  login: 1626627952986
   lastteleport: 1598110537639
-  logout: 1617118167572
+  logout: 1626628417691
 ipAddress: 24.118.80.127
 lastlocation:
   world: world
@@ -13,8 +13,8 @@ lastlocation:
   pitch: 42.30005
 logoutlocation:
   world: world
-  x: 313.9053726760293
-  y: 69.5
-  z: 106.91185104314788
-  yaw: -70.77521
-  pitch: -25.500162
+  x: 309.0474684143196
+  y: 69.0
+  z: 108.97578460470213
+  yaw: 20.71991
+  pitch: 28.949316

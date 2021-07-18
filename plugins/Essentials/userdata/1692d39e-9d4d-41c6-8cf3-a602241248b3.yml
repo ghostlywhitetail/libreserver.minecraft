@@ -1,16 +1,16 @@
 lastAccountName: redspirit1717
 timestamps:
-  login: 1598584847709
-  logout: 1598589864474
+  login: 1626628014063
+  logout: 1626628415695
   lastteleport: 1598588735731
-ipAddress: 173.27.48.6
+ipAddress: 192.168.0.34
 logoutlocation:
   world: world
-  x: 342.88819491958884
-  y: 71.0
-  z: 152.02455075506185
-  yaw: -69.87378
-  pitch: 17.79449
+  x: 437.30000001192093
+  y: 82.0
+  z: 188.92280481205518
+  yaw: 121.609985
+  pitch: 52.998207
 lastlocation:
   world: world
   x: 493.93972325978586

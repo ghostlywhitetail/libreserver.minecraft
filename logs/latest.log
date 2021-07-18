@@ -1,313 +1,627 @@
-[17:28:32] [Thread-2/INFO]: Stopping server
-[17:28:32] [Thread-2/INFO]: [RedProtect] Saving world's regions...[m
-[17:28:32] [Thread-2/INFO]: [RedProtect] Saving world_the_end's regions...[m
-[17:28:32] [Thread-2/INFO]: [RedProtect] Saving world_nether's regions...[m
-[17:28:32] [Thread-2/INFO]: [RedProtect] Unregistering listeners...[m
-[17:28:32] [Thread-2/INFO]: [RedProtect] RedProtect v7.7.2 turned off...[m
-[17:28:32] [Thread-2/INFO]: Saving players
-[17:28:32] [Thread-2/INFO]: Saving worlds
-[17:28:32] [Thread-2/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:29:46] [Thread-2/ERROR]: Failed to save chunk 9,14
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:31:51] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
-[17:33:29] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:33:29] [Thread-2/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:33:36] [Thread-2/ERROR]: Failed to save chunk 1,-2
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:33:40] [Thread-2/ERROR]: Failed to save chunk 2,12
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:33:40] [Thread-2/ERROR]: Failed to save chunk 1,-2
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:33:47] [Thread-2/ERROR]: Failed to save chunk 2,14
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:33:53] [Thread-2/ERROR]: Failed to save chunk 0,8
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:33:55] [Thread-2/ERROR]: Failed to save chunk 3,-5
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:34:07] [Thread-2/ERROR]: Failed to save chunk -1,-1
-java.util.ConcurrentModificationException: null
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1208) ~[?:?]
-	at java.util.TreeMap$KeyIterator.next(TreeMap.java:1262) ~[?:?]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:132) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:113) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:109) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.a(TickListServer.java:169) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:350) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.saveChunk(PlayerChunkMap.java:722) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176) [?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) [?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) [?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) [?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) [?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) [?:?]
-	at net.minecraft.server.v1_16_R1.PlayerChunkMap.save(PlayerChunkMap.java:320) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkProviderServer.save(ChunkProviderServer.java:309) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.save(WorldServer.java:760) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.saveChunks(MinecraftServer.java:676) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.stop(MinecraftServer.java:743) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.stop(DedicatedServer.java:644) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.close(MinecraftServer.java:694) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at org.bukkit.craftbukkit.v1_16_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:16) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-[17:34:10] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:34:10] [Thread-2/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:34:10] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:34:33] [Server thread/ERROR]: Encountered an unexpected exception
-net.minecraft.server.v1_16_R1.ReportedException: Writing into PalettedContainer from multiple threads
-	at net.minecraft.server.v1_16_R1.MinecraftServer.b(MinecraftServer.java:1119) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.b(DedicatedServer.java:354) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.a(MinecraftServer.java:1009) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:848) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.IllegalStateException
-	at net.minecraft.server.v1_16_R1.DataPaletteBlock.a(SourceFile:45) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DataPaletteBlock.setBlock(SourceFile:112) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkSection.setType(SourceFile:61) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkSection.setType(SourceFile:55) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.Chunk.setType(Chunk.java:269) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.a(World.java:293) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.setTypeAndData(World.java:260) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:229) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockRedstoneWire.doPhysics(BlockRedstoneWire.java:368) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.doPhysics(BlockBase.java:497) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.a(World.java:495) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockDiodeAbstract.d(BlockDiodeAbstract.java:176) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockDiodeAbstract.onPlace(BlockDiodeAbstract.java:161) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.onPlace(BlockBase.java:531) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.Chunk.setType(Chunk.java:307) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.a(World.java:293) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.setTypeAndData(World.java:260) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockDiodeAbstract.tickAlways(BlockDiodeAbstract.java:38) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.a(BlockBase.java:539) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.b(WorldServer.java:631) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.b(TickListServer.java:79) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.doTick(WorldServer.java:333) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.b(MinecraftServer.java:1106) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	... 5 more
-[17:34:33] [Server thread/ERROR]: 	Cause of unexpected exception was
-java.lang.IllegalStateException: null
-	at net.minecraft.server.v1_16_R1.DataPaletteBlock.a(SourceFile:45) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DataPaletteBlock.setBlock(SourceFile:112) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkSection.setType(SourceFile:61) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ChunkSection.setType(SourceFile:55) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.Chunk.setType(Chunk.java:269) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.a(World.java:293) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.setTypeAndData(World.java:260) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockRedstoneWire.a(BlockRedstoneWire.java:229) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockRedstoneWire.doPhysics(BlockRedstoneWire.java:368) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.doPhysics(BlockBase.java:497) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.a(World.java:495) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockDiodeAbstract.d(BlockDiodeAbstract.java:176) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockDiodeAbstract.onPlace(BlockDiodeAbstract.java:161) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.onPlace(BlockBase.java:531) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.Chunk.setType(Chunk.java:307) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.a(World.java:293) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.World.setTypeAndData(World.java:260) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockDiodeAbstract.tickAlways(BlockDiodeAbstract.java:38) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.BlockBase$BlockData.a(BlockBase.java:539) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.b(WorldServer.java:631) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.TickListServer.b(TickListServer.java:79) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.WorldServer.doTick(WorldServer.java:333) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.b(MinecraftServer.java:1106) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.DedicatedServer.b(DedicatedServer.java:354) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.a(MinecraftServer.java:1009) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:848) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[17:34:33] [Server thread/ERROR]: This crash report has been saved to: /home/minecraft/minecraft/./crash-reports/crash-2021-04-19_17.34.33-server.txt
-[17:34:33] [IO-Worker-102602/ERROR]: Cound not schedule mailbox
-java.util.concurrent.RejectedExecutionException: Task IOWorker-chunk 2 false rejected from java.util.concurrent.ThreadPoolExecutor@3fb25e5a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 8496578]
-	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355) ~[?:?]
-	at net.minecraft.server.v1_16_R1.ThreadedMailbox.f(SourceFile:126) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at net.minecraft.server.v1_16_R1.ThreadedMailbox.run(SourceFile:108) [spigot-1.16.1.jar:git-Spigot-9639cf7-8fb6585]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
+[17:03:40] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:03:41] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:03:45] [Worker-Main-2/INFO]: Loaded 7 recipes
+[17:03:51] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[17:03:51] [Server thread/INFO]: Loading properties
+[17:03:52] [Server thread/INFO]: This server is running CraftBukkit version 3187-Spigot-d03d7f1-b8c522d (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[17:03:52] [Server thread/INFO]: Debug logging is disabled
+[17:03:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:03:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:03:52] [Server thread/INFO]: Default game type: SURVIVAL
+[17:03:52] [Server thread/INFO]: Generating keypair
+[17:03:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:03:53] [Server thread/INFO]: Using epoll channel type
+[17:03:56] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[17:03:57] [ForkJoinPool-3-worker-9/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-9/ERROR]: [LuckPerms] Unable to load dependency TEXT_SERIALIZER_LEGACY.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-5/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-5/ERROR]: [LuckPerms] Unable to load dependency COMMODORE.
+[17:03:57] [ForkJoinPool-3-worker-17/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-17/ERROR]: [LuckPerms] Unable to load dependency EVENT.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-53/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-53/ERROR]: [LuckPerms] Unable to load dependency CAFFEINE.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-37/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-37/ERROR]: [LuckPerms] Unable to load dependency TEXT_SERIALIZER_GSON.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-25/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-25/ERROR]: [LuckPerms] Unable to load dependency OKIO.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-45/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-45/ERROR]: [LuckPerms] Unable to load dependency TEXT_ADAPTER_BUKKIT.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-61/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-61/ERROR]: [LuckPerms] Unable to load dependency OKHTTP.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-51/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-51/ERROR]: [LuckPerms] Unable to load dependency TEXT.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-33/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[17:03:57] [ForkJoinPool-3-worker-33/ERROR]: [LuckPerms] Unable to load dependency BYTEBUDDY.
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-33/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-51/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-61/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-45/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-25/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-37/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-53/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-17/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @a543a66
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:160)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[17:03:57] [ForkJoinPool-3-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[17:03:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.0.0
+[17:03:57] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.18.0.0
+[17:03:57] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.0.0
+[17:03:57] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.18.0.0
+[17:03:57] [Server thread/INFO]: [RedProtect] Loading RedProtect v7.7.2
+[17:03:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[17:03:57] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[17:03:57] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.1.26[m
+[17:03:57] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[17:03:57] [Server thread/INFO]: [m
+[17:03:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:03:57] [Server thread/ERROR]: Error occurred while enabling LuckPerms v5.1.26 (Is it up to date?)
+java.lang.NoClassDefFoundError: me/lucko/luckperms/lib/okhttp3/MediaType
+	at me.lucko.luckperms.common.web.AbstractHttpClient.<clinit>(AbstractHttpClient.java:37) ~[?:?]
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:123) ~[?:?]
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onEnable(LPBukkitBootstrap.java:161) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:495) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:409) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:234) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:995) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.ClassNotFoundException: me.lucko.luckperms.lib.okhttp3.MediaType
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:142) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	... 12 more
+[17:03:57] [Server thread/INFO]: Preparing level "world"
+[17:03:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:03:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:03:58] [Server thread/INFO]: Mob Spawn Range: 6
+[17:03:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:03:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:03:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:03:58] [Server thread/INFO]: Max TNT Explosions: 100
+[17:03:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:03:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:03:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:03:58] [Server thread/INFO]: View Distance: 10
+[17:03:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:03:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:03:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:03:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:03:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:03:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:03:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:03:58] [Server thread/INFO]: Mob Spawn Range: 6
+[17:03:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:03:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:03:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:03:58] [Server thread/INFO]: Max TNT Explosions: 100
+[17:03:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:03:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:03:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:03:58] [Server thread/INFO]: View Distance: 10
+[17:03:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:03:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:03:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:03:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:03:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:03:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:03:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:03:58] [Server thread/INFO]: Mob Spawn Range: 6
+[17:03:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:03:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:03:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:03:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:03:58] [Server thread/INFO]: Max TNT Explosions: 100
+[17:03:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:03:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:03:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:03:58] [Server thread/INFO]: View Distance: 10
+[17:03:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:03:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:03:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:03:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:03:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:03:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:04:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:11] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{},name:"minecraft:no_op"}]
+[17:04:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:151) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:505) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:216) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.PlayerChunkMap.lambda$20(PlayerChunkMap.java:562) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:606) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:617) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.ChunkProviderServer.runTasks(ChunkProviderServer.java:322) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1142) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeAll(SourceFile:110) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1103) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:770) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:599) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:266) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:995) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[17:04:11] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{config:{},name:"minecraft:no_op"}]
+[17:04:11] [Server thread/ERROR]: Exception loading structure piece with id minecraft:jigsaw
+java.lang.IllegalStateException: Invalid pool element found
+	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.k(SourceFile:54) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.WorldGenFeaturePillagerOutpostPoolPiece.<init>(SourceFile:54) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.world.level.levelgen.feature.StructureGenerator.a(SourceFile:151) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.a(ChunkRegionLoader.java:505) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.world.level.chunk.storage.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:216) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.PlayerChunkMap.lambda$20(PlayerChunkMap.java:562) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.ChunkProviderServer$a.executeTask(ChunkProviderServer.java:606) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.ChunkProviderServer$a.executeNext(ChunkProviderServer.java:617) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.level.ChunkProviderServer.runTasks(ChunkProviderServer.java:322) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1142) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeAll(SourceFile:110) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1103) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.loadSpawn(MinecraftServer.java:770) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:599) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:266) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:995) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3187-Spigot-d03d7f1-b8c522d]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[17:04:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:18] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[17:04:18] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[17:04:19] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[17:04:19] [Worker-Main-2/INFO]: Preparing spawn area: 3%
+[17:04:20] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[17:04:20] [Worker-Main-2/INFO]: Preparing spawn area: 6%
+[17:04:21] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[17:04:21] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[17:04:22] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:22] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:23] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:23] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:24] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:24] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[17:04:25] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[17:04:26] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[17:04:26] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[17:04:26] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[17:04:27] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[17:04:27] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[17:04:28] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[17:04:28] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[17:04:29] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[17:04:29] [Worker-Main-2/INFO]: Preparing spawn area: 30%
+[17:04:30] [Worker-Main-2/INFO]: Preparing spawn area: 39%
+[17:04:30] [Worker-Main-2/INFO]: Preparing spawn area: 44%
+[17:04:31] [Worker-Main-2/INFO]: Preparing spawn area: 50%
+[17:04:31] [Worker-Main-2/INFO]: Preparing spawn area: 60%
+[17:04:32] [Worker-Main-2/INFO]: Preparing spawn area: 73%
+[17:04:32] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[17:04:33] [Worker-Main-2/INFO]: Preparing spawn area: 88%
+[17:04:33] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[17:04:35] [Server thread/INFO]: Time elapsed: 37069 ms
+[17:04:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:04:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:41] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[17:04:42] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[17:04:42] [Worker-Main-2/INFO]: Preparing spawn area: 6%
+[17:04:43] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[17:04:43] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:44] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:44] [Worker-Main-2/INFO]: Preparing spawn area: 9%
+[17:04:45] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[17:04:45] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[17:04:46] [Worker-Main-2/INFO]: Preparing spawn area: 21%
+[17:04:46] [Worker-Main-2/INFO]: Preparing spawn area: 21%
+[17:04:47] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[17:04:47] [Worker-Main-2/INFO]: Preparing spawn area: 29%
+[17:04:48] [Worker-Main-2/INFO]: Preparing spawn area: 33%
+[17:04:49] [Worker-Main-2/INFO]: Preparing spawn area: 39%
+[17:04:49] [Worker-Main-2/INFO]: Preparing spawn area: 47%
+[17:04:49] [Worker-Main-2/INFO]: Preparing spawn area: 60%
+[17:04:50] [Worker-Main-2/INFO]: Preparing spawn area: 73%
+[17:04:50] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[17:04:51] [Worker-Main-2/INFO]: Preparing spawn area: 98%
+[17:04:52] [Server thread/INFO]: Time elapsed: 16393 ms
+[17:04:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:04:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:04:54] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[17:04:54] [Worker-Main-2/INFO]: Preparing spawn area: 14%
+[17:04:55] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[17:04:55] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[17:04:56] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[17:04:56] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[17:04:57] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[17:04:57] [Worker-Main-2/INFO]: Preparing spawn area: 49%
+[17:04:58] [Worker-Main-2/INFO]: Preparing spawn area: 50%
+[17:04:58] [Worker-Main-2/INFO]: Preparing spawn area: 50%
+[17:04:59] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[17:04:59] [Server thread/INFO]: Time elapsed: 7391 ms
+[17:04:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.0.0
+[17:04:59] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[17:05:00] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[17:05:00] [Server thread/INFO]: No kits found to migrate.
+[17:05:00] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getMethod(String, java.lang.Class[])" because "nmsClass" is null
+[17:05:00] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
+[17:05:00] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:270)
+[17:05:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[17:05:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[17:05:00] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[17:05:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:495)
+[17:05:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:409)
+[17:05:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:604)
+[17:05:00] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:266)
+[17:05:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:995)
+[17:05:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303)
+[17:05:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[17:05:00] [Server thread/INFO]: Loaded 25515 items from items.json.
+[17:05:00] [Server thread/INFO]: Using locale en_US
+[17:05:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:05:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:05:00] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[17:05:00] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[17:05:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:05:00] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.18.0.0
+[17:05:00] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[17:05:01] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[17:05:01] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.0.0
+[17:05:01] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[17:05:01] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.18.0.0
+[17:05:01] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[17:05:01] [Server thread/INFO]: [RedProtect] Enabling RedProtect v7.7.2
+[17:05:01] [Server thread/INFO]: [RedProtect] Server version: 1.17.1-R0.1-SNAPSHOT[m
+[17:05:02] [Server thread/INFO]: [RedProtect] All configurations loaded![m
+[17:05:02] [Server thread/INFO]: [RedProtect] Language file loaded - Using: EN-US[m
+[17:05:02] [Server thread/INFO]: [RedProtect] Registering commands...[m
+[17:05:02] [Server thread/INFO]: [RedProtect] Registering listeners...[m
+[17:05:02] [Server thread/INFO]: [RedProtect] Essentials found. Hooked.[m
+[17:05:02] [Server thread/INFO]: [RedProtect] - Loading world's regions...[m
+[17:05:02] [Server thread/INFO]: [RedProtect] - Loading world_nether's regions...[m
+[17:05:02] [Server thread/INFO]: [RedProtect] - Loading world_the_end's regions...[m
+[17:05:02] [Server thread/INFO]: [RedProtect] Auto-save Scheduler: Saving file database every 60 minutes![m
+[17:05:02] [Server thread/INFO]: [RedProtect] There are 5 regions on (file) database![m
+[17:05:02] [Server thread/INFO]: [RedProtect] Helper version: Latest[m
+[17:05:02] [Server thread/INFO]: [RedProtect] Loading GuiFlags for 1.14+[m
+[17:05:02] [Server thread/INFO]: [RedProtect] Metrics enabled! See our stats here: https://bstats.org/plugin/bukkit/RedProtect[m
+[17:05:02] [Server thread/INFO]: [RedProtect] Loading API...[m
+[17:05:02] [Server thread/INFO]: [RedProtect] API Loaded![m
+[17:05:02] [Server thread/INFO]: [0;31;22m _   _  _  [0;31;1m _   _   _  _ _  _  _ _ _  __[m
+[17:05:02] [Server thread/INFO]: [0;31;22m|_| |_ | \ [0;31;1m|_| |_| | |  |  |_ |   |    /[m
+[17:05:02] [Server thread/INFO]: [0;31;22m| \ |_ |_/ [0;31;1m|   | \ |_|  |  |_ |_  |   /[m
+[17:05:02] [Server thread/INFO]: [0;32;1m» RedProtect v7.7.2 enabled[m
+[17:05:02] [Server thread/INFO]: [m
+[17:05:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:05:03] [Server thread/INFO]: Done (65.882s)! For help, type "help"
+[17:05:11] [User Authenticator #1/INFO]: UUID of player mrnotfortheweak is 4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6
+[17:05:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@543da38c[id=4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6,name=mrnotfortheweak,properties={textures=[com.mojang.authlib.properties.Property@4070ac11]},legacy=false] (/24.118.80.127:57784) lost connection: Disconnected
+[17:05:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45337ms or 906 ticks behind
+[17:05:49] [User Authenticator #2/INFO]: UUID of player mrnotfortheweak is 4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6
+[17:05:49] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot_from_blasting' in progress file ./world/advancements/4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6.json - it doesn't exist anymore?
+[17:05:49] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot' in progress file ./world/advancements/4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6.json - it doesn't exist anymore?
+[17:05:49] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot_from_blasting' in progress file ./world/advancements/4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6.json - it doesn't exist anymore?
+[17:05:49] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot' in progress file ./world/advancements/4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6.json - it doesn't exist anymore?
+[17:05:49] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/honey_block' in progress file ./world/advancements/4d239b5a-f2ad-400b-8fc6-434b1c1a4aa6.json - it doesn't exist anymore?
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[17:05:50] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[17:05:52] [Server thread/INFO]: mrnotfortheweak[/24.118.80.127:57786] logged in with entity id 476 at ([world]313.9053726760293, 69.5, 106.91185104314788)
+[17:06:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25050ms or 501 ticks behind
+[17:06:51] [User Authenticator #3/INFO]: UUID of player redspirit1717 is 1692d39e-9d4d-41c6-8cf3-a602241248b3
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot_from_blasting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/iron_ingot' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot_from_blasting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/gold_ingot' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/mossy_stone_bricks' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/coal_from_smelting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/coal_from_blasting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/lapis_from_smelting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/lapis_from_blasting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/honey_block' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/redstone/redstone_from_smelting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/redstone/redstone_from_blasting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/diamond_from_blasting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/diamond_from_smelting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/slime_block' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/emerald_from_blasting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:51] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/misc/emerald_from_smelting' in progress file ./world/advancements/1692d39e-9d4d-41c6-8cf3-a602241248b3.json - it doesn't exist anymore?
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:coal_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:diamond_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:lapis_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:emerald_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:coal_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:mossy_stone_bricks removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:lapis_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:redstone_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:emerald_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:diamond_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:redstone_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:coal_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:lapis_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:diamond_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:emerald_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:diamond_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:lapis_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:redstone_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:gold_ingot_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:coal_from_smelting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:redstone_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:emerald_from_blasting removed now.
+[17:06:53] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:iron_ingot_from_blasting removed now.
+[17:06:53] [Server thread/INFO]: redspirit1717[/192.168.0.34:64787] logged in with entity id 557 at ([world]342.88819491958884, 71.0, 152.02455075506185)
+[17:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15412ms or 308 ticks behind
+[17:11:28] [Server thread/WARN]: mrnotfortheweak moved too quickly! -9.579276533357245,2.0,5.733937006095374
+[17:11:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6732ms or 134 ticks behind
+[17:11:37] [Server thread/WARN]: mrnotfortheweak moved too quickly! -9.128760012156249,-4.073278967567276,0.6259434711151926
+[17:13:35] [Server thread/INFO]: redspirit1717 lost connection: Disconnected
+[17:13:35] [Server thread/INFO]: redspirit1717 left the game
+[17:13:37] [Server thread/INFO]: mrnotfortheweak lost connection: Disconnected
+[17:13:37] [Server thread/INFO]: mrnotfortheweak left the game
